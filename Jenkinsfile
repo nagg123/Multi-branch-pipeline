@@ -1,9 +1,9 @@
-pipeline {   
+pipeline { 
     agent any
     stages {   
-        stage('Main') { 
+        stage('Master') { 
             steps { 
-               sh 'echo "This is main1 branch.....' 
+               sh 'echo "This is main1 branch....."' 
             }
         }
      
